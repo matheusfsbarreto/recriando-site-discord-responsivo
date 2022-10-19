@@ -1,0 +1,51 @@
+
+header {
+    background-image: url(/assets/images/Header\ Background.png);
+    color: white;
+    padding: 24px;
+}
+
+.logo {
+    margin-bottom: 36px;
+}
+
+.title-header {
+    font-size: 32px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.header-button-1 {
+    margin-top: 24px;
+    border-radius: 28px;
+    width: 342px;
+    height: 54px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.header-button-2 {
+    margin-bottom: 24px;
+    border-radius: 28px;
+    width: 342px;
+    height: 54px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+}

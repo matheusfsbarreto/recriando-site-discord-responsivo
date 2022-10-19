@@ -1,0 +1,68 @@
+@media screen and (min-width: 768px){
+    header {
+        background-image: url(/assets/images/Header\ Background\ 2.png);
+        background-size: cover;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-buttons {
+        flex-direction: row;
+    }
+
+    .header-button-1, .header-button-2 {
+        margin: 0;
+    }
+
+    .title-header{
+        text-align: center;
+        font-size: 56px;
+    }
+
+    header p {
+        text-align: center;
+        margin-bottom: 24px;
+        width: 50vw;
+    }
+    
+    section {
+        display: flex;
+        align-items: center;       
+    }
+
+    .section-image{
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .section-describe {
+        flex-direction: column;
+        width: 40vw;
+        height: 40vh;
+
+    }
+
+    .section-title {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .section-4 {
+        flex-direction: column;
+    }
+
+    .section-4 img {
+        width: 50vw;
+        height: 50vh;
+        margin: auto;
+    }
+
+
+
+
+
+}
